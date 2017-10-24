@@ -23,7 +23,7 @@
     },
     "bin": [
         [
-            "bin\\bash.exe",
+            "root\\bin\\bash.exe",
             "cygwin",
             "--login -i"
         ]
@@ -44,7 +44,7 @@
     "notes": "To start a Cygwin shell, type \"cygwin\"",
     "shortcuts": [
         [
-            "Cygwin.bat",
+            "root\\Cygwin.bat",
             "Cygwin"
         ]
     ]
