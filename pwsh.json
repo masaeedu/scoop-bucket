@@ -1,0 +1,16 @@
+{
+  "homepage": "https://microsoft.com/powershell",
+  "version": "6.0.1",
+  "url":
+    "https://github.com/PowerShell/PowerShell/releases/download/v6.0.1/PowerShell-6.0.1-win-x64.zip",
+  "hash": "ee2aa13d34adfdb54fade86995d3f54dbb1d40995c32e8ddcac38327ca358083",
+  "bin": "pwsh.exe",
+  "shortcuts": [["pwsh.exe", "Powershell 6"]],
+  "checkver": {
+    "github": "https://github.com/PowerShell/PowerShell"
+  },
+  "autoupdate": {
+    "url":
+      "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
+  }
+}
